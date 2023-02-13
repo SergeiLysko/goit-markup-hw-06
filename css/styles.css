@@ -831,6 +831,10 @@ margin-bottom: 28px;
     resize: none;
 }
 .consent{
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1,71;
+        letter-spacing: 0.03em;
     margin-top: 20px;
     margin-bottom: 30px;
 }
@@ -891,6 +895,6 @@ justify-content: center;
     color: var(--accent-color);
     text-decoration-skip-ink: none;
 }
-.comment input::placeholder{
+.qwerty input::placeholder{
     color: rgba(117, 117, 117, 0.5);
 }
