@@ -916,3 +916,20 @@ fill: var(--accent-color);
     
         letter-spacing: 0.03em;
 }
+
+.consent:checked + .part{
+   fill: var(--first-button-color);
+   background-color: var(--accent-color);
+   border-color: var(--accent-color);
+
+}
+
+
+.part{
+    border-radius: 2px;
+    fill: transparent;
+    border:2px solid var(--second-button-color);
+}
+.consent{
+    appearance: none;
+}
